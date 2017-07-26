@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0622688CBEC92430B07D3F1 /* Pods_BuschLiviApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA706B9E211949B9AEC44A9F /* Pods_BuschLiviApp.framework */; };
+		D00752DA1F23DE4A00210465 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00752D91F23DE4A00210465 /* Detail.swift */; };
+		D00752DC1F23E08B00210465 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00752DB1F23E08B00210465 /* MessageCell.swift */; };
+		D00752DE1F240CC500210465 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00752DD1F240CC500210465 /* Search.swift */; };
+		D067D2BC1F1BFD9E00856EFB /* MessageDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D067D2BB1F1BFD9E00856EFB /* MessageDetails.swift */; };
+		D06E4EC61F119A2500C238C9 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E4EC51F119A2500C238C9 /* Chat.swift */; };
+		D06E4EC81F119E0100C238C9 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E4EC71F119E0100C238C9 /* SignUp.swift */; };
+		D08D0F001F244AF0009182FC /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D0EFF1F244AF0009182FC /* SearchCell.swift */; };
+		D08D0F021F244C4C009182FC /* SearchDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D0F011F244C4C009182FC /* SearchDetail.swift */; };
+		D0AB9F5D1F12F9A8004ADEEC /* MessageDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AB9F5C1F12F9A8004ADEEC /* MessageDetailCell.swift */; };
 		D0B2E4011F1171CB0063C51B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2E4001F1171CB0063C51B /* AppDelegate.swift */; };
 		D0B2E4031F1171CB0063C51B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2E4021F1171CB0063C51B /* ViewController.swift */; };
 		D0B2E4061F1171CB0063C51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B2E4041F1171CB0063C51B /* Main.storyboard */; };
 		D0B2E4081F1171CB0063C51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B2E4071F1171CB0063C51B /* Assets.xcassets */; };
 		D0B2E40B1F1171CB0063C51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B2E4091F1171CB0063C51B /* LaunchScreen.storyboard */; };
+		D0B2E4131F1171F20063C51B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0B2E4121F1171F20063C51B /* GoogleService-Info.plist */; };
+		D0DD8BE61F21122B008BC5DB /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD8BE51F21122B008BC5DB /* Messages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55458F9A7D7027E7F925B328 /* Pods-BuschLiviApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuschLiviApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuschLiviApp/Pods-BuschLiviApp.debug.xcconfig"; sourceTree = "<group>"; };
+		855D6C678A5943778DD8D4E5 /* Pods-BuschLiviApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuschLiviApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuschLiviApp/Pods-BuschLiviApp.release.xcconfig"; sourceTree = "<group>"; };
+		CA706B9E211949B9AEC44A9F /* Pods_BuschLiviApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuschLiviApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00752D91F23DE4A00210465 /* Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		D00752DB1F23E08B00210465 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		D00752DD1F240CC500210465 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		D067D2BB1F1BFD9E00856EFB /* MessageDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetails.swift; sourceTree = "<group>"; };
+		D06E4EC51F119A2500C238C9 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		D06E4EC71F119E0100C238C9 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		D08D0EFF1F244AF0009182FC /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		D08D0F011F244C4C009182FC /* SearchDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetail.swift; sourceTree = "<group>"; };
+		D0AB9F5C1F12F9A8004ADEEC /* MessageDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailCell.swift; sourceTree = "<group>"; };
 		D0B2E3FD1F1171CA0063C51B /* BuschLiviApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuschLiviApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B2E4001F1171CB0063C51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0B2E4021F1171CB0063C51B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,8 @@
 		D0B2E4071F1171CB0063C51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B2E40A1F1171CB0063C51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B2E40C1F1171CB0063C51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B2E4121F1171F20063C51B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0DD8BE51F21122B008BC5DB /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0622688CBEC92430B07D3F1 /* Pods_BuschLiviApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4674FAB64919A9F970B9F6A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA706B9E211949B9AEC44A9F /* Pods_BuschLiviApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5D7E5949375D2604C4B8FC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55458F9A7D7027E7F925B328 /* Pods-BuschLiviApp.debug.xcconfig */,
+				855D6C678A5943778DD8D4E5 /* Pods-BuschLiviApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D08D0EFB1F2449E9009182FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D067D2BB1F1BFD9E00856EFB /* MessageDetails.swift */,
+				D00752D91F23DE4A00210465 /* Detail.swift */,
+				D08D0F011F244C4C009182FC /* SearchDetail.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D08D0EFD1F244A23009182FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D08D0EFF1F244AF0009182FC /* SearchCell.swift */,
+				D0AB9F5C1F12F9A8004ADEEC /* MessageDetailCell.swift */,
+				D00752DB1F23E08B00210465 /* MessageCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D08D0EFE1F244A37009182FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D06E4EC71F119E0100C238C9 /* SignUp.swift */,
+				D06E4EC51F119A2500C238C9 /* Chat.swift */,
+				D0B2E4021F1171CB0063C51B /* ViewController.swift */,
+				D00752DD1F240CC500210465 /* Search.swift */,
+				D0DD8BE51F21122B008BC5DB /* Messages.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		D0B2E3F41F1171CA0063C51B = {
 			isa = PBXGroup;
 			children = (
 				D0B2E3FF1F1171CA0063C51B /* BuschLiviApp */,
 				D0B2E3FE1F1171CA0063C51B /* Products */,
+				B5D7E5949375D2604C4B8FC3 /* Pods */,
+				4674FAB64919A9F970B9F6A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +132,15 @@
 		D0B2E3FF1F1171CA0063C51B /* BuschLiviApp */ = {
 			isa = PBXGroup;
 			children = (
+				D08D0EFB1F2449E9009182FC /* Model */,
+				D08D0EFD1F244A23009182FC /* View */,
+				D08D0EFE1F244A37009182FC /* Controller */,
 				D0B2E4001F1171CB0063C51B /* AppDelegate.swift */,
-				D0B2E4021F1171CB0063C51B /* ViewController.swift */,
 				D0B2E4041F1171CB0063C51B /* Main.storyboard */,
 				D0B2E4071F1171CB0063C51B /* Assets.xcassets */,
 				D0B2E4091F1171CB0063C51B /* LaunchScreen.storyboard */,
 				D0B2E40C1F1171CB0063C51B /* Info.plist */,
+				D0B2E4121F1171F20063C51B /* GoogleService-Info.plist */,
 			);
 			path = BuschLiviApp;
 			sourceTree = "<group>";
@@ -71,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0B2E40F1F1171CB0063C51B /* Build configuration list for PBXNativeTarget "BuschLiviApp" */;
 			buildPhases = (
+				10A51446CB93BC62B3313D7B /* [CP] Check Pods Manifest.lock */,
 				D0B2E3F91F1171CA0063C51B /* Sources */,
 				D0B2E3FA1F1171CA0063C51B /* Frameworks */,
 				D0B2E3FB1F1171CA0063C51B /* Resources */,
+				4788F0DF41C5C16340B275E6 /* [CP] Embed Pods Frameworks */,
+				1BFAB916859E7DB9F30CF20F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,18 +211,77 @@
 				D0B2E40B1F1171CB0063C51B /* LaunchScreen.storyboard in Resources */,
 				D0B2E4081F1171CB0063C51B /* Assets.xcassets in Resources */,
 				D0B2E4061F1171CB0063C51B /* Main.storyboard in Resources */,
+				D0B2E4131F1171F20063C51B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A51446CB93BC62B3313D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1BFAB916859E7DB9F30CF20F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuschLiviApp/Pods-BuschLiviApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4788F0DF41C5C16340B275E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuschLiviApp/Pods-BuschLiviApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0B2E3F91F1171CA0063C51B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D067D2BC1F1BFD9E00856EFB /* MessageDetails.swift in Sources */,
+				D08D0F001F244AF0009182FC /* SearchCell.swift in Sources */,
 				D0B2E4031F1171CB0063C51B /* ViewController.swift in Sources */,
+				D00752DA1F23DE4A00210465 /* Detail.swift in Sources */,
+				D06E4EC81F119E0100C238C9 /* SignUp.swift in Sources */,
+				D0DD8BE61F21122B008BC5DB /* Messages.swift in Sources */,
+				D06E4EC61F119A2500C238C9 /* Chat.swift in Sources */,
 				D0B2E4011F1171CB0063C51B /* AppDelegate.swift in Sources */,
+				D00752DE1F240CC500210465 /* Search.swift in Sources */,
+				D0AB9F5D1F12F9A8004ADEEC /* MessageDetailCell.swift in Sources */,
+				D08D0F021F244C4C009182FC /* SearchDetail.swift in Sources */,
+				D00752DC1F23E08B00210465 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +404,7 @@
 		};
 		D0B2E4101F1171CB0063C51B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55458F9A7D7027E7F925B328 /* Pods-BuschLiviApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RVFJLP7GQ2;
@@ -274,6 +418,7 @@
 		};
 		D0B2E4111F1171CB0063C51B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855D6C678A5943778DD8D4E5 /* Pods-BuschLiviApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RVFJLP7GQ2;
@@ -304,6 +449,7 @@
 				D0B2E4111F1171CB0063C51B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
